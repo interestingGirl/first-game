@@ -43,11 +43,12 @@ table td {
     width: auto;
     text-align: center;
     min-width: 120px;
-    margin: 0px 100px 20px 100px;
+    margin: 0px 200px 10px 100px;
     padding: 0px;
     z-index: 1;
     font-size: 70px;
-    font-family:monospace,fantasy,sans-serif,cursive,monospace;
+    font-family:monospace,fantasy,sans-serif;
+    color:aliceblue;
 }
 
 /*footer*/

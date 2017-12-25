@@ -1,5 +1,5 @@
 body{
-    background: url("..bground1.jpg") no-repeat fixed;
+    background: url("bg4.jpg") no-repeat fixed;
     /* set background tensile */
     background-size: cover;
     -moz-background-size: cover;
@@ -60,23 +60,34 @@ body{
 .login-input-box input:after{
     border: 1px solid #ff7d0a;
 }
-
+.btn{
+    border-right:#7b9ebd 1px solid;
+    padding-right: 2px;
+    border-top: #7b9ebd 1px solid;
+PADDING-LEFT: 2px;
+FONT-SIZE: 12px;
+BORDER-LEFT: #7b9ebd 1px solid;
+CURSOR: hand;
+COLOR: black;
+PADDING-TOP: 2px;
+BORDER-BOTTOM: #7b9ebd 1px solid
+}
 .login-input-box .icon{
     width: 24px;
     height: 24px;
     margin: 6px 4px 6px 24px;
-    background-color: #ff7d0a;
+    background-color: #ff0a0a;
     display: inline-block;
     position: absolute;
     border-right: 1px solid #dcdcdc;
 }
 
 .login-input-box .icon.icon-user{
-    background: url("../assets/images/user.png");
+    background: url("user.png");
 }
 
 .login-input-box .icon.icon-password{
-    background: url("../assets/images/password.png");
+    background: url("password.png");
 }
 
 .remember-box{
@@ -108,11 +119,11 @@ body{
 }
 
 .login-button-box button:hover{
-    background-color: #ee7204;
+    background-color: #1ea74e;
 }
 
 .login-button-box button:active{
-    background-color: #ee7204;
+    background-color: #1ea74e;
 }
 
 .logon-box{
@@ -128,9 +139,9 @@ body{
 }
 
 .logon-box a:hover{
-    color: #ff7d0a;
+    color: #1ea74e;
 }
 
 .logon-box a:active{
-    color: #ee7204;
+    color: #1ea74e;
 }
