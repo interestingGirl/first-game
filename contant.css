@@ -96,6 +96,21 @@ body{
     font-family: sans-serif;
     font-size: 20px;
 }
+.pra1
+{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: bisque;
+    
+}
+.h{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:aliceblue;
+    display: inline;
+}
 .bigp{
     text-align: left;
     font-family: sans-serif;

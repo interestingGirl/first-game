@@ -10,10 +10,10 @@ body{
 }
 
 #content{
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(27, 165, 106, 0.5);
     width: 420px;
     height: 300px;
-    border: 1px solid #000000;
+    border: 3px solid rgba(27, 165, 106, 0.4);
     border-radius: 6px;
     padding: 10px;
     margin-top: 15%;
@@ -60,7 +60,7 @@ body{
 .login-input-box input:after{
     border: 1px solid #ff7d0a;
 }
-.btn{
+/*.btn{
     border-right:#7b9ebd 1px solid;
     padding-right: 2px;
     border-top: #7b9ebd 1px solid;
@@ -71,7 +71,7 @@ CURSOR: hand;
 COLOR: black;
 PADDING-TOP: 2px;
 BORDER-BOTTOM: #7b9ebd 1px solid
-}
+}*/
 .login-input-box .icon{
     width: 24px;
     height: 24px;
@@ -96,7 +96,7 @@ BORDER-BOTTOM: #7b9ebd 1px solid
     margin-left: 18px;
     margin-top: 12px;
     font-size: 12px;
-    color: #6a6765;
+    color: #f7f6f5;
 }
 
 .login-button-box{
@@ -114,16 +114,16 @@ BORDER-BOTTOM: #7b9ebd 1px solid
     width: 386px;
     height: 40px;
     margin-left: 18px;
-    border: 1px solid #ff7d0a;
+    border: 1px solid #ff0a26;
     border-radius: 4px;
 }
 
 .login-button-box button:hover{
-    background-color: #1ea74e;
+    background-color: rgba(239, 17, 17, 0.81);
 }
 
 .login-button-box button:active{
-    background-color: #1ea74e;
+    background-color: rgba(239, 17, 17, 0.81);
 }
 
 .logon-box{
@@ -144,4 +144,26 @@ BORDER-BOTTOM: #7b9ebd 1px solid
 
 .logon-box a:active{
     color: #1ea74e;
+}
+/*contact*/
+.contact-input-box .icon{
+    width: 60px;
+    height: 50px;
+    margin: 6px 4px 6px 24px;
+    background-color: #ff0a0a;
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid #dcdcdc;
+}
+#content1{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 420px;
+    height: 300px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
