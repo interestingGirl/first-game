@@ -14,7 +14,7 @@ body{
     width: 420px;
     height: 300px;
     border: 3px solid rgba(27, 165, 106, 0.4);
-    border-radius: 6px;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 15%;
     margin-left: auto;
@@ -146,17 +146,32 @@ BORDER-BOTTOM: #7b9ebd 1px solid
     color: #1ea74e;
 }
 /*contact*/
-.contact-input-box .icon{
-    width: 60px;
-    height: 50px;
-    margin: 6px 4px 6px 24px;
-    background-color: #ff0a0a;
+.contact-input-box{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
-    position: absolute;
-    border-right: 1px solid #dcdcdc;
+}
+
+.contact-input-box input{
+    width: 345px;
+    height: 200px;
+    margin-left: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding-left: 42px;
+}
+
+.contact-input-box input:hover{
+    border: 1px solid #ff7d0a;
+}
+
+.contact-input-box input:after{
+    border: 1px solid #ff7d0a;
 }
 #content1{
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(25, 141, 65, 0.47);
     width: 420px;
     height: 300px;
     border: 1px solid #000000;
