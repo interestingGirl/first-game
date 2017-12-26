@@ -88,6 +88,7 @@ body{
     -moz-background-size: cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
+    z-index: 5;
 }
 /*body font*/
 .pra
@@ -161,6 +162,17 @@ h2.sub-agileits-w3layouts{
     -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
     box-shadow: 0px 35px 44px -22px #1f181b;
     padding: 60px 40px;
+}
+/*image in the eating page*/
+.content-e{
+    margin: 39px 78px 5px 200px;
+    padding: 5px;
+    z-index: 2;
+}
+.imgc{
+    width: 440px;
+    height: 300px;
+    margin: 39px 7px 58px 20px;
 }
 /*#footer {
     position: relative;
