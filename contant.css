@@ -36,10 +36,12 @@ table td {
 /*logo*/
 
 #log {
-    position: absolute;
-    margin: 3px 200px 200px 200px;
+    position:absolute;
+    margin: 2px 2px 2px 100px;
     width: auto;
     max-width: 120px;
+    min-width: 80px;
+    padding: 10px
 }
 
 /*header*/
@@ -48,7 +50,7 @@ table td {
     width: auto;
     text-align: center;
     min-width: 120px;
-    margin: 0px 100px 20px 100px;
+    margin: 10px 100px 20px 100px;
     padding: 0px;
     z-index: 1;
     font-size: 70px;
@@ -174,6 +176,7 @@ h2.sub-agileits-w3layouts{
     height: 300px;
     margin: 39px 7px 58px 20px;
 }
+
 /*#footer {
     position: relative;
     background-color: bisque;
