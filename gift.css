@@ -1,0 +1,28 @@
+.img1{
+   /*background: url(giftbags.png) no-repeat;*//*如果用background-image不能添加多个性质*/
+   width: 50%;
+   height: 315px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 0px 90px 0px 169px;
+   padding: 5px;
+   background-repeat: no-repeat;
+}
+.img1:hover{
+    -moz-box-shadow:0 0 10px #ffffff;
+    -webkit-box-shadow:0 0 10px #ffffff;
+    box-shadow:0 0 10px #ffffff;
+    width: 55%;
+    height: 329px;
+}
+.img2{
+   background: url(giftbags.png) no-repeat;/*如果用background-image不能添加多个性质*/
+   width: 21%;
+   height: 315px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 7px 160px 0px 180px;
+   padding: 5px;
+}
+.img2:hover{
+    -moz-box-shadow:0 0 10px #ffffff;
+    -webkit-box-shadow:0 0 10px #ffffff;
+    box-shadow:0 0 10px #ffffff;
+    width: 22%;
+}

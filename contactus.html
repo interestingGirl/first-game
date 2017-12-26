@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +6,22 @@
     <title>Contant Us</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link rel="stylesheet" type="text/css" href="contant.css">
+     <link rel="shortcut icon" href="fav.ico" />
    <!--- <script>--->
    <!-- function login(){
            alert("log in sucessful!");
     }
     </script>--->
+    <script type="text/javascript">
+function myFunction(){
+    if(confirm("Are you sure to submit?")){
+        alert('Thank you for your suggestion :)')
+    }
+    else{
+        alert("cancel.")
+    }
+    }
+    </script>
 </head>
 <body>
 <div id="log">
@@ -30,12 +42,14 @@
         </div>
     </form>
 
-    <div class="login-button-box">
-        <button>Submit</button>
+    <div id=""class="login-button-box">
+        <!-- <input type="button" value="Submit" onclick="myFunction()"  />-->
+        <button onclick='myFunction()'>Submit</button>
     </div>
 </div>
 <!--nav-->
-   <div id="nav">
+   <div id="nav">.
+     
       <table>
        <tr><td class="hasbackcolor"><a href="#">history</a></td></tr>
        <tr><td class="hasbackcolor"><a href="#">custom</a></td></tr>
