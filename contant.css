@@ -43,7 +43,6 @@ table td {
 }
 
 /*header*/
-
 #header {
     position: relative;
     width: auto;
@@ -90,6 +89,7 @@ body{
     -webkit-background-size:cover;
     -o-background-size:cover;
 }
+/*body font*/
 .pra
 {
     text-align: left;
@@ -117,6 +117,25 @@ body{
     font-size: 35px;
     font-weight: 700;
 }
+.ph1{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.phlink1:link{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 650;
+}
+.phlink1:visited,.phlink1:hover,.phlink1:active{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+/*in the about*/
 .main-agileits {
     width: 39%;
     margin:auto;
