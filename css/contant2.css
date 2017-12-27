@@ -103,7 +103,7 @@ table td {
 }*/
 
 body {
-    background: url("bg4.jpg") no-repeat fixed;
+    background: url("../image/bg4.jpg") no-repeat fixed;
     /* set background tensile */
     background-size: cover;
     -moz-background-size: cover;
