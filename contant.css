@@ -206,7 +206,11 @@ font-size:12px;
 width:100%;
 text-align:center;
 z-index: -1;
-background-color:  darkgoldenrod;
+background-color:#1e7b49;
+}
+#footer p{
+    text-align: center;
+    color: azure;
 }
 /*#footer {
     position: relative;
