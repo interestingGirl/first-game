@@ -29,6 +29,11 @@ table td.hasbackcolor {
     background: rgba(153, 255, 204, 0.19);
     text-align: left;
 }
+table td.nohasbackcolor {
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
 
 table td {
     padding: 20px;
@@ -41,6 +46,8 @@ table td {
 #log {
     float: left;
     width:100%;
+    position: absolute;
+    top: 0px;
     /*width: auto;*/
     /*max-width: 120px;*/
 }
@@ -58,6 +65,9 @@ table td {
 
 #header {
     position:absolute;
+	width: 100%;
+	top: 0px;
+	left: -250px;
     float: right;
     margin: 0px 200px 10px 300px;
     padding: 0px;
@@ -73,7 +83,7 @@ table td {
 /*contant*/
 
 #contant {
-    margin: 0px 250px 0px 220px;
+    margin: 0px 250px 0px 250px;
 }
 
 
@@ -200,7 +210,7 @@ h2.sub-agileits-w3layouts {
 
 /*footer*/
 #footer{
-position:absolute;
+position:static;
 /*bottom: 0px;/*relative 的用法*/
 font-size:12px;
 width:100%;
@@ -208,14 +218,14 @@ text-align:center;
 z-index: -1;
 background-color:  darkgoldenrod;
 }
-/*#footer {
-    position: relative;
-    background-color: bisque;
-    color: brown;
-    width: auto;
-    text-align: center;
-    min-width: 120px;
-    margin:400px,0px,0px,0px;
-    padding: 0px;
-    z-index: 1;
-}*/
+
+#footer1{
+position:absolute;
+	bottom: 0px;
+/*bottom: 0px;/*relative 的用法*/
+font-size:12px;
+width:100%;
+text-align:center;
+z-index: -1;
+background-color:  darkgoldenrod;
+}

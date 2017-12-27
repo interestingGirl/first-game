@@ -2,7 +2,7 @@
    /*background: url(giftbags.png) no-repeat;*//*如果用background-image不能添加多个性质*/
    width: 50%;
    height: 315px;/*高度不要用百分比，除非有父元素定了百分比*/
-   margin: 0px 90px 0px 169px;
+   margin: 0px 90px 0px 200px;
    padding: 5px;
    background-repeat: no-repeat;
 }
