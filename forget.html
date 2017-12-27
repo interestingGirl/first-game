@@ -3,11 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Forget</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link rel="stylesheet" type="text/css" href="contant.css">
     <link rel="shortcut icon" href="fav.ico" />
-
+ <script type="text/javascript">
+function myFunction(){
+    if(confirm("Are you sure to submit it?")){
+        alert('It have been send you a message/e-mail.Thank you!')
+    }
+    else{
+        alert("cancel.You're not submit the message.")
+    }
+    }
+    </script>
 </head>
 
 <body>
@@ -19,7 +28,7 @@
  <!--header-->
   <div id="header">
     <br>
-      <p>Welcome to Log in !</p>
+      <p>Find your password</p>
   </div>
     <div id="content2">
         <div class="login-header">
@@ -32,24 +41,13 @@
             </div>
             <div class="login-input-box">
                 <span class="icon icon-password"></span>
-                <input type="password" name="password" placeholder="Please enter your password" />
+                <input type="text" name="email/number" placeholder="Please enter your email/phone number" />
             </div>
         </form>
-        <div class="remember-box">
-            <label>
-            <input type="checkbox">&nbsp;Remember Me
-        </label>
-        </div>
         <div class="login-button-box">
-           <div class="a-noline">
-            <button><a href="game.html">Log in</a></button>
+            <button onclick="myFunction()">Submit</button>
             </div>
         </div>
-        <div class="logon-box">
-            <a href="">Forgot?</a>
-            <a href="">Register</a>
-        </div>
-    </div>
     <div id="nav">
       <table>
           <tr><td class="hasbackcolor">454545</td></tr>

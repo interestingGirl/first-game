@@ -5,10 +5,11 @@
     min-width: 128px;
     max-width: 220px;
     width: auto;
-    top: 255px;
+    top: 280px;
     left: 20px;
     padding: 5px;
     z-index: 1;
+    text-align: center;
     /*默认的为0，可以用-1变成后面显示*/
     /*所以这个是累赘*/
     /*设置前后出现，这样可以出现照片上面有字的情况*/
@@ -18,8 +19,6 @@ a:link,a:visited,a:hover,a:active
     text-decoration: none;
     color:#f4eeee;
 }
-
-
 table td.hasbackcolor {
     padding: 10px;
     border-radius: 8px;
@@ -50,7 +49,7 @@ table td {
     width: auto;
     text-align: center;
     min-width: 120px;
-    margin: 10px 100px 20px 100px;
+    margin: 10px 10px 20px 100px;
     padding: 0px;
     z-index: 1;
     font-size: 70px;

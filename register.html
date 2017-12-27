@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link rel="stylesheet" type="text/css" href="contant.css">
     <link rel="shortcut icon" href="fav.ico" />
-
+ <script type="text/javascript">
+function myFunction(){
+    if(confirm("Are you sure to submit it?")){
+        alert('Thank you:)')
+        alert("If you forget,It doesn't matter if you write down your phone number/email.")
+    }
+    }
+    </script>
 </head>
 
 <body>
@@ -19,9 +26,9 @@
  <!--header-->
   <div id="header">
     <br>
-      <p>Welcome to Log in !</p>
+      <p>Welcome to register :)</p>
   </div>
-    <div id="content2">
+    <div id="contentr">
         <div class="login-header">
             <img src="bg5.jpg">
         </div>
@@ -32,24 +39,17 @@
             </div>
             <div class="login-input-box">
                 <span class="icon icon-password"></span>
-                <input type="password" name="password" placeholder="Please enter your password" />
+                <input type="text" name="email" placeholder="Please enter your e-mail" />
+            </div>
+            <div class="login-input-box">
+                <span class="icon icon-password"></span>
+                <input type="text" name="phone" placeholder="Please enter your phone number" />
             </div>
         </form>
-        <div class="remember-box">
-            <label>
-            <input type="checkbox">&nbsp;Remember Me
-        </label>
-        </div>
         <div class="login-button-box">
-           <div class="a-noline">
-            <button><a href="game.html">Log in</a></button>
+            <button onclick="myFunction()">Submit</button>
             </div>
         </div>
-        <div class="logon-box">
-            <a href="">Forgot?</a>
-            <a href="">Register</a>
-        </div>
-    </div>
     <div id="nav">
       <table>
           <tr><td class="hasbackcolor">454545</td></tr>

@@ -9,9 +9,16 @@
     left: 20px;
     padding: 5px;
     z-index: 1;
+    text-decoration: none;
     /*默认的为0，可以用-1变成后面显示*/
     /*所以这个是累赘*/
     /*设置前后出现，这样可以出现照片上面有字的情况*/
+}
+a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+    color:#f4eeee;
+    text-align: center;
 }
 
 table td.hasbackcolor {

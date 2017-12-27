@@ -9,14 +9,14 @@ body{
     padding: 0px;
 }
 
-#content{
+#content2{
     background-color: rgba(27, 165, 106, 0.5);
     width: 420px;
     height: 300px;
     border: 3px solid rgba(27, 165, 106, 0.4);
     border-radius: 15px;
     padding: 10px;
-    margin-top: 15%;
+    margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -25,7 +25,7 @@ body{
 .login-header{
     width: 100%;
     height: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #dcdcdc;
 }
 
@@ -60,18 +60,7 @@ body{
 .login-input-box input:after{
     border: 1px solid #ff7d0a;
 }
-/*.btn{
-    border-right:#7b9ebd 1px solid;
-    padding-right: 2px;
-    border-top: #7b9ebd 1px solid;
-PADDING-LEFT: 2px;
-FONT-SIZE: 12px;
-BORDER-LEFT: #7b9ebd 1px solid;
-CURSOR: hand;
-COLOR: black;
-PADDING-TOP: 2px;
-BORDER-BOTTOM: #7b9ebd 1px solid
-}*/
+
 .login-input-box .icon{
     width: 24px;
     height: 24px;
@@ -114,7 +103,7 @@ BORDER-BOTTOM: #7b9ebd 1px solid
     width: 386px;
     height: 40px;
     margin-left: 18px;
-    border: 1px solid #ff0a26;
+    border: 3px solid rgba(63, 206, 113, 0.71);
     border-radius: 4px;
 }
 
@@ -125,7 +114,10 @@ BORDER-BOTTOM: #7b9ebd 1px solid
 .login-button-box button:active{
     background-color: rgba(239, 17, 17, 0.81);
 }
-
+.login-button-box a{
+    color: aliceblue;
+    text-decoration: none;
+}
 .logon-box{
     margin-top: 20px;
     text-align: center;
@@ -133,19 +125,19 @@ BORDER-BOTTOM: #7b9ebd 1px solid
 
 .logon-box a{
     margin: 30px;
-    color: #4a4744;
-    font-size: 13px;
+    color: #fffefe;
+    font-size: 14px;
     text-decoration: none;
 }
 
 .logon-box a:hover{
-    color: #1ea74e;
+    color: rgba(30, 167, 78, 0.62);
 }
 
 .logon-box a:active{
-    color: #1ea74e;
+    color: rgba(30, 167, 78, 0.62);/*#1ea74e;*/
 }
-/*contact*/
+/*contact page*/
 .contact-input-box{
     margin-top: 10px;
     width: 100%;
@@ -169,6 +161,19 @@ BORDER-BOTTOM: #7b9ebd 1px solid
 
 .contact-input-box input:after{
     border: 1px solid #ff7d0a;
+}
+/*register*/
+#contentr{
+    background-color: rgba(27, 165, 106, 0.5);
+    width: 420px;
+    height: 330px;
+    border: 3px solid rgba(27, 165, 106, 0.4);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 #content1{
     background-color: rgba(25, 141, 65, 0.47);
