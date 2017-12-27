@@ -35,7 +35,7 @@ table td {
 /*logo*/
 
 #log {
-    position:absolute;
+    /*position:absolute;*/
     margin: 2px 2px 2px 100px;
     width: auto;
     max-width: 120px;
