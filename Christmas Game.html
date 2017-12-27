@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--这个是设置页面的编码格式，没有设置的时候页面上有中文会出现乱码。
+        This is the code format for setting up the page.
+        When there is no setting, there will be chaos in the Chinese page.-->
+    <title>Christmas Game!</title>
+    <style type="text/css">
+        body{
+            background-image: url("back.jpg");
+        }
+        #content {
+            width:960px;
+            margin:0 auto;
+            text-align:center;
+            margin-top:40px;
+        }
+        #form1 {
+            margin:20px 0;
+        }
+        table {
+            margin:0 auto;
+        }
+        td {
+            width:95px;
+            height:95px;
+            background: #f65d24;
+        }
+    .login-button-box button{
+        background-color: #7a2716;
+        color: #fbf4ff;
+        font-size: 16px;
+        width: 8%;
+        height: 40px;
+        margin-left: 18px;
+        border: 1px solid #ff5c62;
+        border-radius: 4px;
+    }
+
+    .login-button-box button:hover{
+        background-color: #ee5130;
+    }
+
+    .login-button-box button:active{
+        background-color: #ee7204;
+    }
+
+    </style>
+    <script src="Game.js"></script>
+</head>
+<body onLoad="checkCookie()">
+<a href="index.html"><img src="logo.png"/></a>
+<div id="content">
+    <div class="login-button-box">
+        <button onclick="window.location='index.html'">
+            Introduce
+        </button>
+        <button onclick="GameStart()">
+            Start
+        </button>
+        <button onclick="GameOver()">
+            Stop
+        </button>
+    </div>
+
+    <table>
+        <tr>
+            <td id="td[0]" onclick="hit(0)"></td>
+            <td id="td[1]" onclick="hit(1)"></td>
+            <td id="td[2]" onclick="hit(2)"></td>
+            <td id="td[3]" onclick="hit(3)"></td>
+            <td id="td[4]" onclick="hit(4)"></td>
+        </tr>
+        <tr>
+            <td id="td[5]" onclick="hit(5)"></td>
+            <td id="td[6]" onclick="hit(6)"></td>
+            <td id="td[7]" onclick="hit(7)"></td>
+            <td id="td[8]" onclick="hit(8)"></td>
+            <td id="td[9]" onclick="hit(9)"></td>
+        </tr>
+        <tr>
+            <td id="td[10]" onclick="hit(10)"></td>
+            <td id="td[11]" onclick="hit(11)"></td>
+            <td id="td[12]" onclick="hit(12)"></td>
+            <td id="td[13]" onclick="hit(13)"></td>
+            <td id="td[14]" onclick="hit(14)"></td>
+        </tr>
+        <tr>
+            <td id="td[15]" onclick="hit(15)"></td>
+            <td id="td[16]" onclick="hit(16)"></td>
+            <td id="td[17]" onclick="hit(17)"></td>
+            <td id="td[18]" onclick="hit(18)"></td>
+            <td id="td[19]" onclick="hit(19)"></td>
+        </tr>
+        <tr>
+            <td id="td[20]" onclick="hit(20)"></td>
+            <td id="td[21]" onclick="hit(21)"></td>
+            <td id="td[22]" onclick="hit(22)"></td>
+            <td id="td[23]" onclick="hit(23)"></td>
+            <td id="td[24]" onclick="hit(24)"></td>
+        </tr>
+    </table>
+    <form name="form1" id="form1">
+           <label>Score：</label>
+           <input type="text" name="score" size="5">
+           <label>Hit rate：</label>
+           <input type="text" name="success" size="10">
+           <label>Count down：</label>
+           <input type="text" name="remtime" size="5">
+     </form>
+</div>
+</body>
+</html>

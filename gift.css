@@ -1,28 +1,56 @@
 .img1{
    /*background: url(giftbags.png) no-repeat;*//*如果用background-image不能添加多个性质*/
-   width: 50%;
-   height: 315px;/*高度不要用百分比，除非有父元素定了百分比*/
-   margin: 0px 90px 0px 200px;
+    background-image: url(giftbagsbg.jpg);
+   width: 100%;
+   height: 335px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 0px 90px 0px 250px;
    padding: 5px;
-   background-repeat: no-repeat;
 }
 .img1:hover{
+     background: url(gift1.jpg) no-repeat;
     -moz-box-shadow:0 0 10px #ffffff;
     -webkit-box-shadow:0 0 10px #ffffff;
-    box-shadow:0 0 10px #ffffff;
-    width: 55%;
-    height: 329px;
+    box-shadow:0 0 8px #ffffff;
 }
 .img2{
-   background: url(giftbags.png) no-repeat;/*如果用background-image不能添加多个性质*/
-   width: 21%;
-   height: 315px;/*高度不要用百分比，除非有父元素定了百分比*/
-   margin: 7px 160px 0px 180px;
+   background: url(giftbagsbg.jpg) no-repeat;/*如果用background-image不能添加多个性质*/
+   width: 100%;
+   height: 335px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 7px 160px 55px 250px;
    padding: 5px;
 }
 .img2:hover{
+    background: url(giftj.jpg) no-repeat;
     -moz-box-shadow:0 0 10px #ffffff;
     -webkit-box-shadow:0 0 10px #ffffff;
     box-shadow:0 0 10px #ffffff;
-    width: 22%;
+    width: 100%;
+}
+.img3{
+   background: url(giftbagsbg.jpg) no-repeat;/*如果用background-image不能添加多个性质*/
+   width: 100%;
+   height: 335px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 7px 160px 55px 250px;
+   padding: 5px;
+}
+.img3:hover{
+    background: url(giftsock.jpg) no-repeat;
+    -moz-box-shadow:0 0 10px #ffffff;
+    -webkit-box-shadow:0 0 10px #ffffff;
+    box-shadow:0 0 10px #ffffff;
+    width: 100%;
+}
+.img4{
+   background: url(giftbagsbg.jpg) no-repeat;/*如果用background-image不能添加多个性质*/
+   width: 100%;
+   height: 335px;/*高度不要用百分比，除非有父元素定了百分比*/
+   margin: 7px 160px 55px 250px;
+   padding: 5px;
+}
+.img4:hover{
+    background: url(gifthat.jpg) no-repeat;
+    -moz-box-shadow:0 0 10px #ffffff;
+    -webkit-box-shadow:0 0 10px #ffffff;
+    box-shadow:0 0 10px #ffffff;
+    width: 100%;
 }
