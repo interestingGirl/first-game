@@ -6,6 +6,8 @@
         This is the code format for setting up the page.
         When there is no setting, there will be chaos in the Chinese page.-->
     <title>Christmas Game!</title>
+     <link rel="stylesheet" type="text/css" href="contant2.css" />
+    <link rel="shortcut icon" href="fav.ico" />
     <style type="text/css">
         body{
             background-image: url("back.jpg");
@@ -53,7 +55,7 @@
 <a href="index.html"><img src="logo.png"/></a>
 <div id="content">
     <div class="login-button-box">
-        <button onclick="window.location='index.html'">
+        <button onclick="window.location='gameIntroduce.html'">
             Introduce
         </button>
         <button onclick="GameStart()">
@@ -63,7 +65,9 @@
             Stop
         </button>
     </div>
-
+<div id="header">
+   <p>Chrismas Game</p>
+</div>
     <table>
         <tr>
             <td id="td[0]" onclick="hit(0)"></td>
@@ -110,5 +114,21 @@
            <input type="text" name="remtime" size="5">
      </form>
 </div>
+<div id="nav">
+      <table>
+       <tr><td class="hasbackcolor"><a href="index.html">Home</a></td></tr>
+          <tr><td class="hasbackcolor"><a href="ChristmasGame.html">Game</a></td></tr>
+       <tr><td class="hasbackcolor"><a href="contactus.html">Contact us</a></td></tr>
+       <tr><td class="hasbackcolor"><a href="about.html">About us</a></td></tr>
+       <tr><td class="hasbackcolor"><a href="login.html">Log in</a></td></tr>
+      </table>
+   </div>
+<audio src="music.mp3" controls="controls">
+</audio> 
+<div id="footer">
+        <br/>
+        <p>desgin by interesting.</p>
+        <p>@&nbsp;2017</p>
+        <br/>
 </body>
 </html>
