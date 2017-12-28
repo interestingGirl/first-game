@@ -78,7 +78,7 @@ function timeStop() {
 function show(){
     if(playing){
         var current = Math.floor(Math.random()*25);
-        document.getElementById("td["+current+"]").innerHTML = '<img src="out.jpg">';
+        document.getElementById("td["+current+"]").innerHTML = '<img src="../image/out.jpg">';
         setTimeout("document.getElementById('td["+current+"]').innerHtml=''",3000); //使用 setTimeout()实现3秒后隐藏老鼠图片
     }
 }
